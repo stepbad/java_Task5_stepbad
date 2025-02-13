@@ -6,13 +6,20 @@ public class TestAnimal {
 
         Mammal genericMammal = new Mammal("Mammal");
         System.out.println(genericMammal);
-                */
 
         Cat myCat = new Cat("Whiskers");
         System.out.println(myCat);
 
         myCat.greets();
+                */
 
+
+        Dog myDog = new Dog("Rover");
+        System.out.println(myDog);
+        myDog.greets(); 
+
+        Dog anotherDog = new Dog("Rex");
+        myDog.greets(anotherDog);
     }
 }
 

@@ -3,9 +3,16 @@ public class TestAnimal {
         /*
         Animal genericAnimal = new Animal("Creature");
         System.out.println(genericAnimal);
-        */
 
-        Mammal genericMammal = new Mammal("Primate");
+        Mammal genericMammal = new Mammal("Mammal");
         System.out.println(genericMammal);
+                */
+
+        Cat myCat = new Cat("Whiskers");
+        System.out.println(myCat);
+
+        myCat.greets();
+
     }
 }
+
